@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+
+    <link 
+    rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ESMAScript 06 </title>
+</head>
+<body dir="rtl" >
+
+
+
+       
+             <section class="section-center">
+        <form class="center-form" action="/form/sumbit" method="get" >  
+         
+            <div class="img-name" > 
+
+                <h2 class="fonts">ادخل معلوماتك </h2>
+    
+                <input id="Hiding-input" type="file" onchange="previewFile()" placeholder="set your image" >  
+                <img   class="img-template" src="" height="200" alt="Image preview...">
+                <label class="btn-clicking" for="Hiding-input"> حمل صورتك هنا <i class="fas fa-cloud-upload-alt"></i></label>
+                <h6  id="setvalue" class="fonts"> ضع بياناتك هنا </h6>
+            </div>
+
+        
+            </div>
+            <div class="inputs-center" > 
+                <!--  inputs -->
+                <input class="name-input x" type="text" placeholder=" الاسم" >
+                <input class="age-input x" type="text" placeholder="اللقب">
+                <input class="age-input x" type="text" placeholder=" العمر">
+                <input class="age-input x" type="text" placeholder=" البلدية - الدائرة">
+                <input class="age-input x" type="text" placeholder=" الجنس">
+                <input class="age-input x" type="text" placeholder="  (+A) فصيلة الدم">
+           
+                <!-- inputs --> 
+
+
+                <h6 class="fonts"> ادخل تاريخ ميلادك </h6>
+                <div class="birtheday"> 
+                    <input class="birdhday x " type="datetime" placeholder="السنة" >
+                    <input class="birdhday x " type="datetime" placeholder="الشهر" >
+                    <input class="birdhday x " type="datetime" placeholder="اليوم" >
+                </div>
+               
+            </div>
+           
+            <input  class="btn" type="button" value="استمرار">
+        </form>
+   
+             </section> 
+
+             <!-- next section  -->
+             <section class="second-section">  
+                 <div class="div-center"> 
+
+                    <h2 class="fonts "> بطاقتك جاهزة </h2>
+
+                     <!-- the card -->
+                  <article class="the-card" id="the-card"> 
+
+                      <!-- top -->
+                      <div class="top">  
+                          <h6> الجمهورية الدنماركية الديمقراطية الشعبية  </h6>
+                             <h6>  بطاقة التعريف الوطنية </h6>
+                           
+                      </div>
+
+                      <!--  bottom -->
+                      <div class="bottom">
+                           <!-- right  -->
+                           <div class="right"> 
+                                <!-- top -->
+                                <div class="top-right-card" >  
+                                    <h6> سلطة الاصدار  :   <span > دراع القائد   </span> </h6>
+                                    <h6> تاريخ الاصدار :   <span id="start-date"> 00 00 0000  </span> </h6>
+                                    <h6> تاريخ الانتهاء  :   <span id="end-date"> 00 00 0000  </span> </h6>
+                                </div>
+                                <!-- middele -->
+                                <div class="middele-right-card" >
+                                    <h6> رقم التعريف الوطني :   <span  id="number-of-cart-national">  00000 </span> </h6>
+                                    <h6> اللقب  :   <span >   بوخنوف </span> </h6>
+                                    <h6> الاسم :   <span > محمد    </span> </h6>
+                                </div>
+                                <!-- bottom -->
+                                <div class="bottom-right-card" >
+                                    <h6> تاريخ الميلاد   :   <span > 2001 07 19 </span> </h6>
+                                    <h6> الجنس :   <span > دكر </span> </h6>
+                                    <h6> Rh :    <span >  +A </span> </h6>
+                                </div>
+                           </div>
+                              <!-- left -->
+                         <div class="left">   
+                                <img  class="image-left-card" id="image-left-card"  src=""   alt="">  
+                               </div>
+                       </div>   
+                  </article>
+                  <button class="print-btn" > طباعة</button>
+                 </div>
+               
+
+                 <!-- btn  -->
+              
+             </section>
+
+
+
+
+    
+   
+<script src="js.js"> </script>
+</body>
+</html>
